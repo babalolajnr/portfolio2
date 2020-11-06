@@ -12,12 +12,11 @@
               <i class="fas fa-award" />
             </div>
             <h6 class="text-xl font-semibold">
-              Full-stack E-commerce Development
+              Back-end Development
             </h6>
             <p class="mt-2 mb-4 text-gray-600">
-              I develop secure and efficient web and mobile e-commerce
-              services for businesses and individuals that improves
-              business growth and sales
+              I develop secure and efficient web and mobile backend
+              services for front-end applications
             </p>
           </div>
         </div>
