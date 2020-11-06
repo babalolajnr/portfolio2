@@ -29,35 +29,58 @@
             Find me on any of these platforms, I respond in 1-2 business days.
           </h5>
           <div class="mt-6">
-            <button
-              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-twitter" />
-            </button><button
-              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-facebook-square" />
-            </button><button
-              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-dribbble" />
-            </button><button
-              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-github" />
-            </button>
+            <a href="htt" target="_blank">
+              <button
+                class="text-red-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-google" />
+              </button>
+            </a>
+            <a href="https://twitter.com/babalolajnr" target="_blank">
+              <button
+                class="text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-twitter" />
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/abdulqudduus-babalola-2418a9145/" target="_blank">
+              <button
+                class="text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-linkedin" />
+              </button>
+            </a>
+            <a href="https://github.com/babalolajnr" target="_blank">
+              <button
+                class="text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-github" />
+              </button>
+            </a>
+          </div>
+          <div class="mt-6">
+            <span class="text-sm">Hero Photo by
+              <a
+                class="text-blue-500"
+                href="https://unsplash.com/@altumcode?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+              >AltumCode</a>
+              on
+              <a
+                class="text-blue-500"
+                href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+              >Unsplash</a></span>
           </div>
         </div>
-        <div class="w-full lg:w-6/12 px-4">
+        <div class="w-full lg:w-6/12 px-4 mt-6 lg:mt-0">
           <div class="flex flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-              >Useful Links</span>
+              >Links</span>
               <ul class="list-unstyled">
                 <li>
                   <a
@@ -82,37 +105,6 @@
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     href="https://www.creative-tim.com/bootstrap-themes/free"
                   >Free Products</a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-full lg:w-4/12 px-4">
-              <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-              >Other Resources</span>
-              <ul class="list-unstyled">
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                  >MIT License</a>
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/terms"
-                  >Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/privacy"
-                  >Privacy Policy</a>
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/contact-us"
-                  >Contact Us</a>
                 </li>
               </ul>
             </div>

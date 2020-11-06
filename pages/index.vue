@@ -9,7 +9,7 @@
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="
-            background-image: url('https://images.unsplash.com/photo-1573867975080-15a3d9445345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+            background-image: url('/altumcode-dC6Pb2JdAqs-unsplash.jpg');
           "
         >
           <span

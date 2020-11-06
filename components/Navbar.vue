@@ -29,18 +29,29 @@
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
+                href="https://twitter.com/babalolajnr"
+                target="_blank"
               ><i
                 class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">Tweet</span></a>
+              /><span class="lg:hidden inline-block ml-2">Twitter</span></a>
             </li>
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
+                href="https://www.linkedin.com/in/abdulqudduus-babalola-2418a9145/"
+                target="_blank"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-2">LinkedIn</span></a>
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://github.com/babalolajnr"
+                target="_blank"
               ><i
                 class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">Star</span></a>
+              /><span class="lg:hidden inline-block ml-2">Github</span></a>
             </li>
           </ul>
         </div>
