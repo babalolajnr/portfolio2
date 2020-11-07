@@ -34,7 +34,7 @@
                   <span
                     class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                   ><i
-                    class="fas fa-fingerprint"
+                    class="fas fa-mobile-alt"
                   /></span>
                 </div>
                 <div>

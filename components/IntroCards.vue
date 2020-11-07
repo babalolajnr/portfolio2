@@ -9,7 +9,7 @@
             <div
               class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
             >
-              <i class="fas fa-award" />
+              <i class="fas fa-server" />
             </div>
             <h6 class="text-xl font-semibold">
               Back-end Development
@@ -29,7 +29,7 @@
             <div
               class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
             >
-              <i class="fas fa-retweet" />
+              <i class="fas fa-laptop-code" />
             </div>
             <h6 class="text-xl font-semibold">
               Front-end development
@@ -49,7 +49,7 @@
             <div
               class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
             >
-              <i class="fas fa-fingerprint" />
+              <i class="fas fa-mobile-alt" />
             </div>
             <h6 class="text-xl font-semibold">
               Mobile Development
@@ -67,7 +67,7 @@
         <div
           class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
         >
-          <i class="fas fa-user-friends text-xl" />
+          <i class="fas fa-briefcase text-xl" />
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           What I do
