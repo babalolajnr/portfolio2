@@ -29,6 +29,15 @@
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=babalolajnr@gmail.com"
+                target="_blank"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-google text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-2">Gmail</span></a>
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="https://twitter.com/babalolajnr"
                 target="_blank"
               ><i

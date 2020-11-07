@@ -5,7 +5,7 @@
         <img
           alt="..."
           class="max-w-full rounded-lg shadow-lg"
-          src="/me.jpg"
+          src="~assets/img/me.jpg"
         >
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">

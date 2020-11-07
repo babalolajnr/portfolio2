@@ -8,9 +8,7 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="
-            background-image: url('/altumcode-dC6Pb2JdAqs-unsplash.jpg');
-          "
+          style="background-image: url('/hero.jpg');"
         >
           <span
             id="blackOverlay"

@@ -29,7 +29,7 @@
             Find me on any of these platforms, I respond in 1-2 business days.
           </h5>
           <div class="mt-6">
-            <a href="htt" target="_blank">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=babalolajnr@gmail.com" target="_blank">
               <button
                 class="text-red-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -85,14 +85,8 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/presentation"
-                  >About Us</a>
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.creative-tim.com"
-                  >Blog</a>
+                    href="#"
+                  >About Me</a>
                 </li>
                 <li>
                   <a
@@ -103,8 +97,8 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.creative-tim.com/bootstrap-themes/free"
-                  >Free Products</a>
+                    href="#"
+                  >Blog</a>
                 </li>
               </ul>
             </div>
