@@ -91,7 +91,7 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://www.github.com/creativetimofficial"
+                    href="https://github.com/babalolajnr"
                   >Github</a>
                 </li>
                 <li>
