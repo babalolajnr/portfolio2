@@ -47,7 +47,7 @@
             </div>
             <div class="text-center mt-6">
               <button
-                class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                class="bg-black text-yellow-500 hover:text-black hover:bg-yellow-500 active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                 type="button"
                 style="transition: all 0.15s ease 0s"
               >

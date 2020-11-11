@@ -7,14 +7,14 @@
         >
           <div class="px-4 py-5 flex-auto">
             <div
-              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+              class="text-yellow-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-black"
             >
               <i class="fas fa-server" />
             </div>
-            <h6 class="text-xl font-semibold">
+            <h6 class="text-xl lg:text-2xl font-semibold">
               Back-end Development
             </h6>
-            <p class="mt-2 mb-4 text-gray-600">
+            <p class="mt-2 mb-4 text-gray-600 lg:text-lg">
               I develop secure and efficient web and mobile backend
               services for front-end applications
             </p>
@@ -27,14 +27,14 @@
         >
           <div class="px-4 py-5 flex-auto">
             <div
-              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+              class="text-yellow-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-black"
             >
               <i class="fas fa-laptop-code" />
             </div>
-            <h6 class="text-xl font-semibold">
+            <h6 class="text-xl lg:text-2xl font-semibold">
               Front-end development
             </h6>
-            <p class="mt-2 mb-4 text-gray-600">
+            <p class="mt-2 mb-4 text-gray-600 lg:text-lg">
               I develop fully responsive and eye catching user interfaces
               for web and mobile platforms
             </p>
@@ -47,14 +47,14 @@
         >
           <div class="px-4 py-5 flex-auto">
             <div
-              class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+              class="text-yellow-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-black"
             >
               <i class="fas fa-mobile-alt" />
             </div>
-            <h6 class="text-xl font-semibold">
+            <h6 class="text-xl lg:text-2xl font-semibold">
               Mobile Development
             </h6>
-            <p class="mt-2 mb-4 text-gray-600">
+            <p class="mt-2 mb-4 text-gray-600 lg:text-lg">
               I create mobile applications that solve real world problems
               and enhace the quality of lives of the users
             </p>
@@ -65,7 +65,7 @@
     <div class="flex flex-wrap items-center mt-32">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
         <div
-          class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+          class="text-yellow-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-black"
         >
           <i class="fas fa-briefcase text-xl" />
         </div>

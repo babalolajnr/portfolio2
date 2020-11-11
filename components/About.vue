@@ -11,7 +11,7 @@
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div class="md:pr-12">
           <div
-            class="text-pink-600 p-3 text-center mt-6 lg:mt-0 inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+            class="text-yellow-500 p-3 text-center mt-6 lg:mt-0 inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-black"
           >
             <i class="fas fa-rocket text-xl" />
           </div>
@@ -31,7 +31,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-yellow-500 bg-black mr-3"
                   ><i
                     class="fas fa-mobile-alt"
                   /></span>
@@ -47,7 +47,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-yellow-500 bg-black mr-3"
                   ><i
                     class="fab fa-html5"
                   /></span>
@@ -63,7 +63,7 @@
               <div class="flex items-center">
                 <div>
                   <span
-                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                    class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-yellow-500 bg-black mr-3"
                   ><i
                     class="far fa-paper-plane"
                   /></span>
