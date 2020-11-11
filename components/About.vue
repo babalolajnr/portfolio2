@@ -23,8 +23,7 @@
             back-end technologies with proficiency in Vanilla Javascript,
             Java, PHP, Node.js, Laravel, Vuejs, Relational Databases,
             Flutter etc. I am a highly motivated developer. I have worked
-            on quite a number projects with PHP, Javascript and some of
-            the other frameworks listed above. I look forward to working
+            on quite a number projects with PHP, Javascript, Flutter etc. I look forward to working
             with you.
           </p>
           <ul class="list-none mt-6">
