@@ -73,7 +73,7 @@
           What I do
         </h3>
         <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+          class="text-lg lg:text-2xl font-light leading-relaxed mt-4 mb-4 text-gray-700"
         >
           I design, build, and deploy cutting edge web and mobile
           solutions while delivering the best user experience across

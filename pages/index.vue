@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="josefinSans">
     <Navbar />
     <main>
       <div
