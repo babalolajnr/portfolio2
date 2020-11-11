@@ -18,7 +18,7 @@
             type="button"
             @click="toggleNavbar()"
           >
-            <i class="text-white fas fa-bars" />
+            <i class="text-yellow-500 fas fa-bars" />
           </button>
         </div>
         <div
@@ -32,8 +32,8 @@
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=babalolajnr@gmail.com"
                 target="_blank"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-google text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">Gmail</span></a>
+                class="text-yellow-500 hover:text-white fab fa-google text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-4">Gmail</span></a>
             </li>
             <li class="flex items-center">
               <a
@@ -41,8 +41,8 @@
                 href="https://twitter.com/babalolajnr"
                 target="_blank"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">Twitter</span></a>
+                class="text-yellow-500 hover:text-white fab fa-twitter text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-4">Twitter</span></a>
             </li>
             <li class="flex items-center">
               <a
@@ -50,8 +50,8 @@
                 href="https://www.linkedin.com/in/abdulqudduus-babalola-2418a9145/"
                 target="_blank"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">LinkedIn</span></a>
+                class="text-yellow-500 hover:text-white fab fa-linkedin text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-4">LinkedIn</span></a>
             </li>
             <li class="flex items-center">
               <a
@@ -59,8 +59,8 @@
                 href="https://github.com/babalolajnr"
                 target="_blank"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"
-              /><span class="lg:hidden inline-block ml-2">Github</span></a>
+                class="text-yellow-500 hover:text-white fab fa-github text-lg leading-lg"
+              /><span class="lg:hidden inline-block ml-4">Github</span></a>
             </li>
           </ul>
         </div>
