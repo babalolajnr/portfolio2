@@ -95,10 +95,12 @@
                   >Github</a>
                 </li>
                 <li>
-                  <a
+                  <NuxtLink
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="#"
-                  >Blog</a>
+                    to="/blog"
+                  >
+                    Blog
+                  </NuxtLink>
                 </li>
               </ul>
             </div>

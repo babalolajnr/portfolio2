@@ -13,6 +13,8 @@ export default {
     ]
   },
 
+  target: 'static',
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '~assets/css/font-awesome/css/all.min.css'
@@ -36,8 +38,13 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxt/content'
   ],
+
+  content: {
+
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
