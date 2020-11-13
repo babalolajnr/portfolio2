@@ -122,6 +122,10 @@ export default {
               icon: 'success'
 
             })
+
+            this.formData.fullname = ''
+            this.formData.email = ''
+            this.formData.message = ''
           }
         })
         .catch((error) => {
