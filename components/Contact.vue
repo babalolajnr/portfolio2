@@ -29,7 +29,7 @@
                   type="text"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                   placeholder="Full Name"
-                  name="full-name"
+                  name="fullname"
                   style="transition: all 0.15s ease 0s"
                   required
                 >
