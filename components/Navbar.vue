@@ -7,13 +7,17 @@
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
         <div
-          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          class="w-full relative flex justify-between items-baseline lg:w-auto lg:static lg:block lg:justify-start"
         >
           <img
             src="/logo.png"
             alt="logo"
             class="h-8"
-          ><button
+          >
+          <!-- <h3 class="text-yellow-500">
+            {{ greeting }}
+          </h3> -->
+          <button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
             @click="toggleNavbar()"
@@ -72,12 +76,29 @@
 export default {
   data () {
     return {
-      showMenu: false
+      showMenu: false,
+      greeting: ''
     }
+  },
+  mounted () {
+    this.checkTime()
   },
   methods: {
     toggleNavbar () {
       this.showMenu = !this.showMenu
+    },
+    checkTime () {
+      // const today = new Date()
+      // const time = today.getHours()
+      const time = 1
+
+      if (time <= 11) {
+        this.greeting = 'Good Morning 🌄'
+      } else if (time > 11 && time <= 16) {
+        this.greeting = 'Good Afternoon 🌤'
+      } else if (time > 16) {
+        this.greeting = 'Good Evening 🌙'
+      }
     }
   }
 }
