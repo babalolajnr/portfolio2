@@ -1,6 +1,12 @@
 <template>
   <div class="container mx-auto px-4">
-    <form name="contact" data-netlify data-netlify-honeypot="bot-field" action="" method="post">
+    <form
+      name="contact"
+      data-netlify
+      data-netlify-honeypot="bot-field"
+      method="post"
+      @submit.prevent="handleFormSubmit"
+    >
       <input type="hidden" name="form-name" value="contact">
       <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
         <div class="w-full lg:w-6/12 px-4">
@@ -19,6 +25,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="full-name"
                 >Full Name</label><input
+                  v-model="fullname"
                   type="text"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                   placeholder="Full Name"
@@ -32,6 +39,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="email"
                 >Email</label><input
+                  v-model="email"
                   type="email"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                   placeholder="Email"
@@ -45,6 +53,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="message"
                 >Message</label><textarea
+                  v-model="message"
                   rows="4"
                   cols="80"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
@@ -71,11 +80,52 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
+  data () {
+    return {
+      formData: {
+        fullname: null,
+        email: null,
+        message: null
+      }
+    }
+  },
+  methods: {
+    encode (data) {
+      const formData = new FormData()
+
+      for (const key of Object.keys(data)) {
+        formData.append(key, data[key])
+      }
+
+      return formData
+    },
+    handleFormSubmit (e) {
+      const axiosConfig = {
+        header: { 'Content-Type': 'application/x-www-form-urlencoded' }
+      }
+
+      axios.post(
+        location.href,
+        this.encode({
+          'form-name': e.target.getAttribute('name'),
+          ...this.formData
+        }),
+        axiosConfig
+      )
+        .then(data => console.log(data))
+        .catch(error => console.log(error))
+        .then(document.getElementById('myForm').innerHTML = `
+            <div>
+                Thank you! I received your submission.
+            </div>
+            `)
+    }
+  }
 
 }
 </script>
 
 <style>
-
 </style>
