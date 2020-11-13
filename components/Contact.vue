@@ -25,7 +25,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="full-name"
                 >Full Name</label><input
-                  v-model="fullname"
+                  v-model="formData.fullname"
                   type="text"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                   placeholder="Full Name"
@@ -39,7 +39,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="email"
                 >Email</label><input
-                  v-model="email"
+                  v-model="formData.email"
                   type="email"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                   placeholder="Email"
@@ -53,7 +53,7 @@
                   class="block uppercase text-gray-700 text-xs font-bold mb-2"
                   for="message"
                 >Message</label><textarea
-                  v-model="message"
+                  v-model="formData.message"
                   rows="4"
                   cols="80"
                   class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
@@ -115,7 +115,8 @@ export default {
         axiosConfig
       )
         .then((data) => {
-          console.log(data)
+          const dataStatus = data
+          console.log(dataStatus)
         })
         .catch(error => console.log(error))
     }
