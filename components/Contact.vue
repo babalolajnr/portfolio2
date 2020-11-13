@@ -114,13 +114,10 @@ export default {
         }),
         axiosConfig
       )
-        .then(data => console.log(data))
+        .then((data) => {
+          console.log(data)
+        })
         .catch(error => console.log(error))
-        .then(document.getElementById('myForm').innerHTML = `
-            <div>
-                Thank you! I received your submission.
-            </div>
-            `)
     }
   }
 
