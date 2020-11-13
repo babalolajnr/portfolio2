@@ -16,7 +16,8 @@
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.7.0",
     "nuxt": "^2.14.6",
-    "vue-axios": "^2.0.2"
+    "vue-axios": "^2.0.2",
+    "vue-sweetalert2": "^4.1.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

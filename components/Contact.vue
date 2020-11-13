@@ -115,10 +115,23 @@ export default {
         axiosConfig
       )
         .then((data) => {
-          const dataStatus = data
-          console.log(dataStatus)
+          if (data.status === 200) {
+            this.$swal({
+              title: 'Success😀',
+              text: 'Message sent!',
+              icon: 'success'
+
+            })
+          }
         })
-        .catch(error => console.log(error))
+        .catch((error) => {
+          this.$swal({
+            title: 'Error',
+            text: 'There seems to be an error. Please try again!',
+            icon: 'error'
+          })
+          console.log(error)
+        })
     }
   }
 
