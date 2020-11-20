@@ -2,6 +2,7 @@
 title: "Java: The multipurpose language"
 date: 2020-11-20T05:57:03.118Z
 category: Tech
+thumbnail: /img/road_city_lights_192847_3840x2160.jpg
 Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor
   aliquam nulla facilisi cras fermentum odio eu. Sollicitudin aliquam ultrices
