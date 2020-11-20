@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nuxt/content": "^1.10.0",
+    "@nuxt/content": "^1.11.0",
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.7.0",
     "netlify-cli": "^2.68.7",
