@@ -1,29 +1,30 @@
 <template>
   <div>
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+      class="top-0 absolute z-50 -mt-2 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
         <div
-          class="w-full relative flex justify-between items-baseline lg:w-auto lg:static lg:block lg:justify-start"
+          class="w-full relative flex justify-between items-center lg:w-auto lg:static lg:block lg:justify-start"
         >
-          <img
-            src="/logo.png"
-            alt="logo"
-            class="h-8"
-          >
-          <!-- <h3 class="text-yellow-500">
-            {{ greeting }}
-          </h3> -->
-          <button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            @click="toggleNavbar()"
-          >
-            <i class="text-yellow-500 fas fa-bars" />
-          </button>
+          <div>
+            <img
+              src="/colored_logo.png"
+              alt="logo"
+              class="h-20 lg:h-24"
+            >
+          </div>
+          <div class="">
+            <button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+              @click="toggleNavbar()"
+            >
+              <i class="text-yellow-500 fas fa-bars" />
+            </button>
+          </div>
         </div>
         <div
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
