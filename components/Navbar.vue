@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="top-0 absolute z-50 -mt-2 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
+      class="top-0 absolute z-50 -mt-2 lg:-mt-5 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
