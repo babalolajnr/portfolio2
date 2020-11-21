@@ -5,7 +5,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Abdulquduus Babalola (babalolajnr) \'s portfolio. I am a fullstack developer and software engineer. ' },
+      { hid: 'keywords', name: 'keywords', content: 'babalolajnr, Babalola, Abdulqudduus, Babalola Abdulqudduus, Web developer, developer, mobile developer, software engineer' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/black_yellow_logo.png' },
