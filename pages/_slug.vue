@@ -16,9 +16,6 @@
           <div class="blog-post-body">
             <figure class="blog-banner">
               <img class="img-fluid" :src="post.thumbnail" alt="image">
-              <figcaption class="mt-2 text-center image-caption">
-                Image Credit: <a href="https://made4dev.com?ref=devblog" target="_blank">made4dev.com (Premium Programming T-shirts)</a>
-              </figcaption>
             </figure>
             <nuxt-content :document="post" />
 

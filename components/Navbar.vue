@@ -30,7 +30,15 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none"
           :class="{ hidden: !showMenu, block: showMenu }"
         >
-          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <ul class="flex flex-col lg:flex-row lg:items-baseline list-none lg:ml-auto">
+            <li class="flex items-center">
+              <nuxt-link
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                to="/blog"
+              >
+                <span class="inline-block text-lg lg:text-yellow-500 lg:hover:text-white ml-4">Blog</span>
+              </nuxt-link>
+            </li>
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
