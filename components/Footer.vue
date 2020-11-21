@@ -86,12 +86,12 @@
             <span
               class="text-sm"
             >Logo design by
-              <span class="text-blue-500">AbdulsGraphix</span>
-              contact
+              <span class="text-blue-500">AbdulsGraphix. </span>
+              Email @
               <a
                 class="text-blue-500"
-                href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
-              >email</a></span>
+                href="belloabdullahi216@gmail.com"
+              >belloabdullahi216@gmail.com</a></span>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4 mt-6 lg:mt-0">
