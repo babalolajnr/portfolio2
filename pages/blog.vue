@@ -1,11 +1,5 @@
 <template>
   <div>
-    <!-- <li v-for="post of posts" :key="post.slug">
-      <NuxtLink :to="post.slug">
-        {{ post.title }}
-      </NuxtLink>
-    </li> -->
-
     <BlogSidebar />
 
     <div class="main-wrapper">

@@ -29,7 +29,10 @@
             Find me on any of these platforms, I respond in 1-2 business days.
           </h5>
           <div class="mt-6">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=babalolajnr@gmail.com" target="_blank">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=babalolajnr@gmail.com"
+              target="_blank"
+            >
               <button
                 class="text-red-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -45,7 +48,10 @@
                 <i class="flex fab fa-twitter" />
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/abdulqudduus-babalola-2418a9145/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/abdulqudduus-babalola-2418a9145/"
+              target="_blank"
+            >
               <button
                 class="text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -63,7 +69,9 @@
             </a>
           </div>
           <div class="mt-6">
-            <span class="text-sm">Hero Photo by
+            <span
+              class="text-sm"
+            >Hero Photo by
               <a
                 class="text-blue-500"
                 href="https://unsplash.com/@altumcode?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
@@ -73,6 +81,17 @@
                 class="text-blue-500"
                 href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
               >Unsplash</a></span>
+          </div>
+          <div>
+            <span
+              class="text-sm"
+            >Logo design by
+              <span class="text-blue-500">AbdulsGraphix</span>
+              contact
+              <a
+                class="text-blue-500"
+                href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+              >email</a></span>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4 mt-6 lg:mt-0">
