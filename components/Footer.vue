@@ -132,7 +132,7 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{ date }} Babalola Abdulqudduus
+            Babalola Abdulqudduus <span class="font-semibold">{{ date }}</span>
           </div>
         </div>
       </div>
