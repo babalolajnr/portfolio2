@@ -16,7 +16,7 @@
     "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/moment": "^1.6.1",
     "core-js": "^3.8.0",
-    "netlify-cli": "^2.68.7",
+    "netlify-cli": "^3.0.0",
     "nuxt": "^2.14.6",
     "vue-axios": "^2.0.2",
     "vue-sweetalert2": "^4.1.1"
