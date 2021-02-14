@@ -128,13 +128,13 @@ export default {
             this.formData.message = ''
           }
         })
+        // eslint-disable-next-line handle-callback-err
         .catch((error) => {
           this.$swal({
             title: 'Error',
             text: 'There seems to be an error. Please try again!',
             icon: 'error'
           })
-          console.log(error)
         })
     }
   }
